@@ -1,0 +1,23 @@
+{
+    "name": "balruskai/hexlet-php",
+    "description": "hexlet library",
+    "autoload": {
+        "psr-4": {
+            "Balruskai\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Руслан",
+            "email": "Balatuev@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/php-view": "^3.2",
+        "slim/slim": "^4.10"
+    },
+    "license": "MIT",
+    "bin": [
+	    "bin/brain-games"
+    ]
+}
