@@ -2,9 +2,9 @@
     "name": "balruskai/hexlet-php",
     "description": "hexlet library",
     "autoload": {
-        "psr-4": {
-            "Balruskai\\HexletPhp\\": "src/"
-        }
+       "files": [
+	        "src/Cli.php"
+       ]
     },
     "authors": [
         {
@@ -14,7 +14,8 @@
     ],
     "require": {
         "slim/php-view": "^3.2",
-        "slim/slim": "^4.10"
+        "slim/slim": "^4.10",
+        "wp-cli/php-cli-tools": "^0.11.15"
     },
     "license": "MIT",
     "bin": [
