@@ -1,8 +1,1 @@
-<?php
-
-use function cli\line;
-use function cli\prompt;
-
-line('Welcome to the Brain Game!');
-$name = prompt('May I have your name?');
-line("Hello, %s!", $name);
+[![Maintainability](https://api.codeclimate.com/v1/badges/f1391d7a30b27a770592/maintainability)](https://codeclimate.com/github/KasaMutra/php-project-lvl1/maintainability)
